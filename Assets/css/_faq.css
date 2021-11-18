@@ -1,0 +1,79 @@
+.faq-section-bg{
+    background-image: url(../img/faq-bg.jpg);
+    min-height: 500px;
+}
+.faq-section-wrapper .faq-right-side{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 6px 2px rgb(195, 201, 212);
+    height: 300px;
+    padding: 50px;
+    margin-top: 85px;
+}
+.faq-section-wrapper .faq-right-side h6{
+    font-size: 16px;
+
+}
+.faq-section-wrapper .faq-right-side h6 i{
+    font-size: 32px;
+    margin-left: 10px;
+    vertical-align: -5px;
+    color: darkgoldenrod;
+    font-weight: normal;
+}
+.faq-section-wrapper .faq-right-side p{
+    font-size: 14px;
+    margin: 10px 45px 0 0;
+    color: rgb(190, 163, 163);
+}
+.faq-section-wrapper .faq-left-side .tabs{
+    /* border-radius: 10px; */
+    box-shadow: 0 3px 3px -1px rgba(104, 16, 16, 0.6)!important;
+    overflow: hidden;
+    /* background-color: darkseagreen; */
+}
+.faq-section-wrapper .faq-left-side .tab{
+    color: rgb(253, 250, 251);
+    overflow: hidden;
+}
+.faq-section-wrapper .faq-left-side .tab-label{
+    cursor: pointer;
+    background-color: rgb(98, 129, 170);
+    width: 100%;
+    padding: 9px;
+    display: block;
+}
+.faq-section-wrapper .faq-left-side .tab-label:hover{
+    background-color: rgb(56, 91, 206);
+    transition: .5s ease;
+}
+.faq-section-wrapper .faq-left-side .tab-label::after{
+    content: '\276f';
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    transition: .5s;   
+    float: left;
+    /* background-color: black; */
+}
+.faq-section-wrapper .faq-left-side .tab-content{
+    max-height: 0;
+    /* padding: 10px; */
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+    color: black;
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-content{
+    max-height: 150px;
+    padding: 10px;
+    overflow: scroll;
+}
+.faq-section-wrapper .faq-left-side input:checked + .tab-label::after{
+    transform: rotate(-90deg);
+}
+.faq-section-wrapper .faq-left-side input{
+    display: none;
+}
+.faq-section-wrapper .faq-left-side{
+    margin-top: 85px;
+}

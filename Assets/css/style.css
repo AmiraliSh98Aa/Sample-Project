@@ -1,0 +1,18 @@
+@import '_contact.css';
+@import '_menu.css';
+@import '_header.css';
+@import '_course.css';
+@import '_aboutus.css';
+@import '_teacher.css';
+@import '_stat.css';
+@import '_topic.css';
+@import '_faq.css';
+@import '_footer.css';
+@font-face{
+    font-family: Vazir-Bold;
+    src: url("../Fonts/Vazir-Bold.eot") format("eot"),
+    url("../Fonts/Vazir-Bold.woff") format("woff"),
+    url("../Fonts/Vazir-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;}
+

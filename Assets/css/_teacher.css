@@ -1,0 +1,44 @@
+.teacher-section-wrapper{
+    background-image: url(../img/e-bg.jpg);
+    
+}
+.teacher-intro{
+    background-color: thistle;
+    top: 100%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    box-shadow: 1px 3px 5px 2px rgb(48, 21, 48);
+}
+.teacher-intro h3 span{
+    background-color: yellowgreen;
+    color: mediumblue;
+    padding: 1px 10px;
+}
+.teacher-intro h3{
+    margin: 30px 0 60px 0;
+}
+.teacher-intro a{
+    border: 2px groove indigo;
+    padding: 5px 3px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    transition: 1s ease;
+    font-size: 16px;
+}
+.teacher-intro a:hover{
+    border-radius: 5px 0 5px 0;
+    background-color: khaki;
+}
+@media screen and (max-width:700px){
+    .teacher-intro h3{
+        margin: 30px 0 45px 0;
+        font-size: 17px;
+    }
+    .teacher-intro a{
+        font-size: 14px;
+    }
+}
